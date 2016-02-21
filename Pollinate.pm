@@ -16,6 +16,9 @@ use IO::File;
 # can be executed on command line with a url to a pollen server and an optional random string
 
 
+# only public pollen server that i could find is https://entropy.ubuntu.com
+
+
 sub new {
 	my $class = shift;
 	my %args = @_;
